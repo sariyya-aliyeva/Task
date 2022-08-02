@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "table">
+        <table border="1">
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+                <th>Type</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+                <td rowspan="3">Company Founder</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckeberg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total Expense:</td>
+                <td>$4600</td>
+            </tr>
+        </table>
+    </div>
+    <div class="list">
+        <ol>
+            <li>List Item 1
+                <ol type="i">
+                    <li>Nested item 1.1</li>
+                    <li>Nested item 1.2</li>
+                </ol>
+            </li>
+            <li>List Item 2
+                <ol type="A">
+                    <li>Nested item 2.1</li>
+                    <li>Nested item 2.2
+                        <ul type="square">
+                            <li>Nested item 2.2.1</li>
+                            <li>Nested item 2.2.2</li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li>List Item 3</li>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+        </ol>
+    </div>
+    <div class="checkbox">
+        <label for="fullname">First name:</label><br>
+        <input type="text" name="fullname"><br>
+        <label for="lastname">Last name:</label><br>
+        <input type="text" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </div>
+</body>
+</html>
